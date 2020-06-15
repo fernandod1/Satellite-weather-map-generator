@@ -28,13 +28,12 @@ DISPLAY ANIMATED GENERATED IMAGE:
 Just add a html code like:
 
 img src=https://yourwebsite.com/script/animation1.gif
-img src=https://yourwebsite.com/script/animation2.gif
-img src=https://yourwebsite.com/script/animation3.gif
+
 
 ------------------------------------------------
 EXAMPLES OF OUTPUT ANIMATED IMAGE GENERATED:
 ------------------------------------------------
 
-<img src=animation2.gif>
+<img src=animation3.gif>
 
 
