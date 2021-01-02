@@ -1,7 +1,7 @@
 # Satellite weather map animated image generator
 PHP script that scrapes satellite weather maps static images from some sources and generates an animated satellite weather map images.
 
-You can configure/add your own satellite weather images sources. Actually script is configured to scrap images from these sources:
+You can configure/add your own satellite weather images sources. Actually, it is configured to scrap images from these sources:
 
 https://dsx.weather.com/util/image/map/DCT_SPECIAL11_1280x720.jpg<br>
 http://rammb.cira.colostate.edu/ramsdis/online/images/latest/tropical/tropical_ge_4km_ir4_floater_2.gif<br>
@@ -16,7 +16,7 @@ REQUIREMENTS:
 --------------------------------------------------
 CONFIGURE FRECUENCY OF ANIMATED IMAGES GENERATOR:
 --------------------------------------------------
-You must create some cronjobs in your servers so catch new static satellite wweather map images from sources ans generate animated images. Adjunst frecuency of cronjobs to your needs. Command to add is:
+You must create some cronjobs in your servers so catch new static satellite wweather map images from sources ans generate animated images. Adjust frecuency of cronjobs to suit  your needs. Command lines to add is:
 
 wget http://yourwebsite.com/script/index.php?op=cronjobTIPO1 >/dev/null 2>&1<br>
 wget http://yourwebsite.com/script/index.php?op=cronjobTIPO2 >/dev/null 2>&1<br>
